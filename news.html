@@ -61,7 +61,18 @@
 
   <footer class="text-center mt-5 dark:text-white mb-10">Amet minim mollit non deserunt</footer>
 
-  <script src="script.js"></script>
+  <script>
+    const Tag = document.getElementById('htmlTag');
+
+      const swich = document.getElementById('change');
+
+      swich.addEventListener("click", function () {
+
+        Tag.classList.toggle("dark");
+      });
+ 
+      
+  </script>
   
 </body>
 </html>
