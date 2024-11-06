@@ -1,13 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark" id="htmlTag">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>trickerai project</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h1 class="text-red-300">rakibul islam</h1>
-  
+<body class="bg-white dark:bg-gray-900">
+  <!-- header section -->
+  <header class="md:px-16 py-2 flex justify-between items-center">
+    <!-- logo section -->
+    <div class="flex gap-2 md:gap-4 items-center">
+      <img src="./image/tickerAI-logo 1.png" alt="" class="w-10 md:w-fit">
+      <p class="text-[8px] md:text-xs dark:text-white">A Mark Cuban Company <br>
+      AI-based Financial Market News Aggregator</p>
+    </div> 
+     <!--right section -->
+     <div class="flex gap-2">
+      <button class="bg-[#5677AC] px-4 py-1 rounded-sm">Personalize News</button>
+      <p class="text-[#5677AC] font-semibold bg-[#5677AC26] rounded-full py-1 px-2.5">IK</p>
+      <button id="change">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="size-6 dark:stroke-white">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+      </svg>
+</button>
+     </div>
+  </header>
+
+
+  <!-- hero section -->
+
+  <section class="bg-[url(https://images.pexels.com/photos/8370752/pexels-photo-8370752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)] w-full object-cover bg-no-repeat size-80 bg-cover">
+    <h3 class="text-white font-semibold text-3xl text-center pt-20 pb-5">tickerAI</h3>
+    <div class="flex flex-col items-center justify-center mx-auto mx-2">
+
+
+
+       <div class="flex py-2 px-2 bg-white items-center justify-center w-full mx-2 md:w-1/2 gap-2  mx-auto rounded-sm">
+
+    
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+        </svg>
+        <input class="w-full outline-none" type="text" placeholder="Search any market topic...">
+        </div>
+        <p class="text-[12px] pt-4 text-white">There are 6 articles available for your preferences</p>
+
+      </div>
+      <!-- heder section end  -->
+  </section>
+
+
+
+
+
+
+  <script src="script.js"></script>
 </body>
 </html>
