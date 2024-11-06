@@ -4,11 +4,12 @@ import { defineConfig } from "vite";
 
 
 export default defineConfig({
-
   build: {
     rollupOptions: {
-      main : resolve(__dirname, "index.html"),
-      news : resolve(__dirname, "news.html"),
-    },
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        news: resolve(__dirname, 'news.html'),
+      },
+     },
   },
 });
