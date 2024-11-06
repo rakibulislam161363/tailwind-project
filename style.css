@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer utilities{
+  .ptag{
+    @apply bg-black rounded-md text-white  px-3 uppercase dark:bg-white dark:text-black
+  }
+  .paragraph{
+    @apply bg-rose-300 px-2 text-white rounded-md dark:text-white uppercase ml-1 mt-2
+  }
+}
